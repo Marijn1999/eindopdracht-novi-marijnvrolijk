@@ -1,3 +1,31 @@
 body {
+    background-color: black;
+}
+
+.titleLogo {
+    align-content: center;
+}
+
+.navbarTop {
     background-color: white;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 40px;
+}
+.navBarLink {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: palegoldenrod;
 }
